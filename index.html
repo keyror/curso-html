@@ -9,20 +9,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Inicio</title>
 </head>
 <body>
-    <style>
-        body{ 
-            font-family: 'Gemunu Libre', sans-serif;
-        }
-    </style>
-
-    <div>
+    <div class="card-titulo">
         <!-- este es el titulo de la pagina web --> 
-        <center> <h1>CAMILO MANCIPE ES UN TITULO </h1> </center>
+        <h1>CAMILO MANCIPE ES UN TITULO </h1>
     </div>
-    <div>
+    <div class="card-cuerpo">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ab inventore fugiat. 
+            Tenetur laudantium, 
+            <span class="textDecorationOverline">laboriosam eveniet optio</span> fugiat facilis debitis in iusto et a
+            <span class="textDecorationLineThrough">exercitationem porro hic voluptas</span> 
+            quas dolore nemo error 
+            <span class="textDecorationUnderLine">id autem natus cupiditate,</span> 
+            nihil illum nesciunt! 
+            <span class="textDecorationAll"> Voluptatum autem natus culpa atque</span>
+            <span class="minus">ESTO ES UN EJEMPLO DE MAYUS A MINUS</span> 
+        </p>
+    </div>
+    <div class="card-cuerpo">
         <!--mi descripción-->
         <center>
             <p>
@@ -35,35 +42,35 @@
             </p>
         </center>
     </div>
-    <div>
+    <div class="card-contenido">
          <!--mi contenido-->
-        <h4>Contenido</h4>
+        <h4 id="contenido">Contenido</h4>
         <ol>
             <ul>
-                <li><strong><a href="index.html">Inicio</a></strong></li>
-                <li><a href="nosotros.html" target="_blank">Nosotros</a></li>
-                <li><a href="perfil.html">Mi perfil</a></li>
-                <li><a href="registro.html">Registrarme</a></li>
+                <li><strong><a class="btn text-white" href="index.html">Inicio</a></strong></li><br>
+                <li><a class="btn text-white" href="nosotros.html" target="_blank">Nosotros</a></li> <br>
+                <li><a class="btn text-white" href="perfil.html">Mi perfil</a></li> <br>
+                <li><a class="btn text-white" href="registro.html">Registrarme</a></li>
             </ul>
         </ol>
     </div>
-    <div>
-        <h4>Mis empleos o experiencias laborales.</h4>
+    <div class="empleos">
+        <h4 id="contenido">Mis empleos o experiencias laborales.</h4>
             <ol>
                 <ul>
-                    <li><a href="#a1">Desarollador de software</a></li>
-                    <li><a href="#a2">Etiqueta strong</a></li>
-                    <li><a href="#a3">Etiqueta i(cursiva)</a></li>
-                    <li><a href="#a4">Etiqueta em(cursiva)</a></li>
-                    <li><a href="#a5">Etiqueta mark</a></li>
-                    <li><a href="#a6">Etiqueta del</a></li>
-                    <li><a href="#a7">Etiqueta ins</a></li>
-                    <li><a href="#a8">Etiqueta sub</a></li>
-                    <li><a href="#a9">Etiqueta sup</a></li>
+                    <li><a class="lineaInferior text-white" href="#a1">Desarollador de software</a></li> <br>
+                    <li><a class="lineaInferior text-white" href="#a2">Etiqueta strong</a></li> <br>
+                    <li><a class="lineaInferior text-white" href="#a3">Etiqueta i(cursiva)</a></li> <br>
+                    <li><a class="lineaInferior text-white" href="#a4">Etiqueta em(cursiva)</a></li> <br>
+                    <li><a class="lineaInferior text-white" href="#a5">Etiqueta mark</a></li> <br>
+                    <li><a class="lineaInferior text-white" href="#a6">Etiqueta del</a></li> <br>
+                    <li><a class="lineaInferior text-white" href="#a7">Etiqueta ins</a></li> <br>
+                    <li><a class="lineaInferior text-white" href="#a8">Etiqueta sub</a></li> <br>
+                    <li><a class="lineaInferior text-white" href="#a9">Etiqueta sup</a></li> <br>
                 </ul>
             </ol>
     </div>
-
+    <img class="center-image" src="aprender-css.jpg" alt="imagen_de_prueba" width="20%">
     <hr>
 
     <div id="a1">
@@ -121,14 +128,14 @@
     </div>
     <hr>
     <!--Mi tabla-->
-    <div>
-        <table border="2">
-            <thead>
+    <div class="table-center">
+        <table border="2" class="table">
+            <thead class="table-thead">
                 <th>Nombres</th>
                 <th>Apellidos</th>
                 <th>Edad</th>
             </thead>
-            <tbody><!--tbody significa cuerpo de la tabla -->
+            <tbody class="table-tbody"><!--tbody significa cuerpo de la tabla -->
                 <tr> <!--tr significa table row : fila de la tabla-->
                     <td>Camilo </td><!--td significa table data : informacion de la columna-->
                     <td>Mancipe</td>
