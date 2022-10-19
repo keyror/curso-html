@@ -8,7 +8,7 @@ p{
 }
 
 .centrarHtml{
-    text-align: center;
+    text-align: center !important;
 }
 #colorRojo{
     color: #ff0000;
@@ -191,6 +191,45 @@ margin-right: 48em;
 
 
 }
+
+.card{
+    width: 300px;
+    box-shadow: 5px 5px 15px 5px rgb(157, 157, 159),5px 5px 3px 0px rgb(58, 58, 58);
+    margin-left: 360px !important;
+    border-radius: 15px !important;
+  
+}
+.card-header{
+    border-radius: 15px;
+    padding: 10px;
+    border-bottom: 3px solid black;
+    text-align: center;
+    background-color: #424552;
+    color: white;
+}
+.card-body{
+    padding: 10px;
+}
+.card-footer {
+    padding: 10px;
+    border-top:3px solid black ;
+    border-radius: 10px;
+    background-color:#9a9a9a ;
+}
+
+.center-image-job{
+    margin-left: 60px;
+}
+
+.card-footer-center{
+    margin-left: 90px;
+}
+
+.image-shadow{
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 5px rgb(157, 157, 159),5px 5px 3px 0px rgb(58, 58, 58);
+}
+
 
 
 
