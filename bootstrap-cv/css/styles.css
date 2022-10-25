@@ -1,3 +1,14 @@
 .border-morado{
     border-color: blueviolet !important;
 }
+.bg-rosado{
+    background-color: rgb(240, 133, 210);
+}
+.bg-img-bootstrap{
+    background-image: url("https://www.drupal.org/files/project-images/b5-new-logo.png");
+    background-size: 90%;
+}
+
+body{
+background-color: rgb(86, 86, 86);
+}
