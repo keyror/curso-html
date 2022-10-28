@@ -24,8 +24,24 @@
     }
 </style>
 <body>
-    <div class="container">
-        <div class="accordion shadow" id="accordionExample">
+    <div class="container-fluid">
+      <!----barra de navegación-->
+      <div class="row my-4">
+        <div class="col">
+          <div class="bg-dark border-bottom border-light border-3 p-2 shadow rounded">
+              <a href="index.html" class="btn btn-outline-info mx-2" role="button">Inicio</a>
+              <a href="accordion.html" class="btn btn-outline-success" role="button">Experiencias Laborales</a> 
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-primary d-flex justify-content-end">Tienes 
+                  <span class="bagde bg-danger rounded-pill mx-1"> 10 </span> notificaciones
+                </button>
+                <span class="text-white">Camilo M. <i class="fa-solid fa-circle-user "></i></span>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!---final-barra de navegación-->
+        <div class="accordion shadow my-4" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button bg-danger text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
