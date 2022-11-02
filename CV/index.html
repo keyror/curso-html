@@ -88,28 +88,28 @@
                           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                         </div>
                         <div class="carousel-inner">
-                          <div class="carousel-item active">
+                          <div class="carousel-item active" data-bs-interval="5000">
                             <img src="https://www.lucushost.com/blog/wp-content/uploads/2019/10/bootstrap.png" class="d-block w-100 img-fluid" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                               <h5>Primer slider</h5>
                               <p>Some representative placeholder content for the first slide.</p>
                             </div>
                           </div>
-                          <div class="carousel-item">
+                          <div class="carousel-item" data-bs-interval="5000">
                             <img src="https://www.lucushost.com/blog/wp-content/uploads/2019/10/bootstrap.png" class="d-block w-100 img-fluid" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                               <h5>Segundo slider</h5>
                               <p>Some representative placeholder content for the second slide.</p>
                             </div>
                           </div>
-                          <div class="carousel-item">
+                          <div class="carousel-item" data-bs-interval="5000">
                             <img src="https://www.lucushost.com/blog/wp-content/uploads/2019/10/bootstrap.png" class="d-block w-100 img-fluid" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                               <h5>Tercer slider</h5>
                               <p>Some representative placeholder content for the third slide.</p>
                             </div>
                           </div>
-                          <div class="carousel-item">
+                          <div class="carousel-item" data-bs-interval="5000">
                             <img src="https://www.lucushost.com/blog/wp-content/uploads/2019/10/bootstrap.png" class="d-block w-100 img-fluid" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                               <h5>Cuarto slider</h5>
@@ -132,8 +132,75 @@
                 </div>
             </div>
         </div>
-        <div class="col-2 bg-danger">
-            
+        <div class="col-2">
+            <div class="accordion shadow my-4" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button bg-danger text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h5><i class="fa-solid fa-book"></i> - Juego de Tronos  <h6><span class="badge bg-info mx-2">Nuevo!!</span></h6></h5> 
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                    <div class="accordion-body">
+                        <div class="alert alert-info" role="alert">
+                            Para comprar este libro <a href="https://getbootstrap.com/docs/5.0/components/alerts/" class="btn btn-info"><strong>Clic aquí</strong></a>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">.
+                                <div class="text-center">
+                                    <img class="shadow rounded img-fluid"  src="https://1.bp.blogspot.com/-T6cUgtsWKAc/W_3X-1_oMHI/AAAAAAABDas/qQTWY0FiYpMUBDp3Qf-cBC_x8gM8Bjl2wCLcBGAs/s1600/George%2BR%2BR%2BMartin%2Banticipa%2Bla%2Bprecuela%2Bde%2BJuego%2Bde%2BTronos-1.jpg" alt="">
+                                    <br>
+                                    <span class="bagde bg-info text-white rounded shadow p-1">$ 250.000</span>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias cumque aspernatur reiciendis quia dolores sed nostrum excepturi consequatur temporibus dolore.</p>
+                               
+                                  <button type="button" class="btn btn-info"><i class="fa-solid fa-eye"></i></button>
+                                  <button type="button" class="btn btn-success"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                               
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #4
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                </div>
+            </div>
         </div>
      </div>
      <div class="row">
