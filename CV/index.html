@@ -47,7 +47,20 @@
                 <a class="btn btn-success" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+               <!-- Example split danger button -->
+                <div class="btn-group mx-2">
+                  <a type="button" href="template.html" class="btn btn-danger">Action</a>
+                  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+                </div>
               </li>
             </ul>
             <ul class="navbar-nav">
@@ -77,138 +90,169 @@
         </div>
     </nav>
     <div class="container-fluid">
-     <div class="row">
-        <div class="col-10">
-            <div class="card mt-4 shadow rounded">
-                <div class="card-body">
-                    <div id="carouselExampleCaptions" class="carousel slide  carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active" data-bs-interval="5000">
-                            <img src="https://www.lucushost.com/blog/wp-content/uploads/2019/10/bootstrap.png" class="d-block w-100 img-fluid" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5>Primer slider</h5>
-                              <p>Some representative placeholder content for the first slide.</p>
-                            </div>
-                          </div>
-                          <div class="carousel-item" data-bs-interval="5000">
-                            <img src="https://www.lucushost.com/blog/wp-content/uploads/2019/10/bootstrap.png" class="d-block w-100 img-fluid" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5>Segundo slider</h5>
-                              <p>Some representative placeholder content for the second slide.</p>
-                            </div>
-                          </div>
-                          <div class="carousel-item" data-bs-interval="5000">
-                            <img src="https://www.lucushost.com/blog/wp-content/uploads/2019/10/bootstrap.png" class="d-block w-100 img-fluid" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5>Tercer slider</h5>
-                              <p>Some representative placeholder content for the third slide.</p>
-                            </div>
-                          </div>
-                          <div class="carousel-item" data-bs-interval="5000">
-                            <img src="https://www.lucushost.com/blog/wp-content/uploads/2019/10/bootstrap.png" class="d-block w-100 img-fluid" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5>Cuarto slider</h5>
-                              <p>Some representative placeholder content for the first slide.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                </div>
-                <div class="card-footer fixed-bottom text-center">
-                    <small>Derechos reservados 2022</small>
-                </div>
-            </div>
-        </div>
-        <div class="col-2">
-            <div class="accordion shadow my-4" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button bg-danger text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <h5><i class="fa-solid fa-book"></i> - Juego de Tronos  <h6><span class="badge bg-info mx-2">Nuevo!!</span></h6></h5> 
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
-                    <div class="accordion-body">
-                        <div class="alert alert-info" role="alert">
-                            Para comprar este libro <a href="https://getbootstrap.com/docs/5.0/components/alerts/" class="btn btn-info"><strong>Clic aquí</strong></a>
-                        </div>
-                        <div class="row">
-                            <div class="col-4">.
-                                <div class="text-center">
-                                    <img class="shadow rounded img-fluid"  src="https://1.bp.blogspot.com/-T6cUgtsWKAc/W_3X-1_oMHI/AAAAAAABDas/qQTWY0FiYpMUBDp3Qf-cBC_x8gM8Bjl2wCLcBGAs/s1600/George%2BR%2BR%2BMartin%2Banticipa%2Bla%2Bprecuela%2Bde%2BJuego%2Bde%2BTronos-1.jpg" alt="">
-                                    <br>
-                                    <span class="bagde bg-info text-white rounded shadow p-1">$ 250.000</span>
+      <div class="card mt-4 shadow rounded">
+        <div class="card-body">
+          <div class="row">
+              <div class="col-10">
+                          <div id="carouselExampleCaptions" class="carousel slide  carousel-fade" data-bs-ride="carousel">
+                              <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                              </div>
+                              <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="5000">
+                                  <img src="https://www.lucushost.com/blog/wp-content/uploads/2019/10/bootstrap.png" class="d-block w-100 img-fluid" alt="...">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5>Primer slider</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                  </div>
                                 </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                  <img src="https://www.lucushost.com/blog/wp-content/uploads/2019/10/bootstrap.png" class="d-block w-100 img-fluid" alt="...">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5>Segundo slider</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                  </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                  <img src="https://www.lucushost.com/blog/wp-content/uploads/2019/10/bootstrap.png" class="d-block w-100 img-fluid" alt="...">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5>Tercer slider</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                  </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                  <img src="https://www.lucushost.com/blog/wp-content/uploads/2019/10/bootstrap.png" class="d-block w-100 img-fluid" alt="...">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5>Cuarto slider</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
                             </div>
-                            <div class="col-8">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias cumque aspernatur reiciendis quia dolores sed nostrum excepturi consequatur temporibus dolore.</p>
-                               
-                                  <button type="button" class="btn btn-info"><i class="fa-solid fa-eye"></i></button>
-                                  <button type="button" class="btn btn-success"><i class="fa-solid fa-cart-arrow-down"></i></button>
-                               
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="col-2">
+                  <div class="list-group my-4 shadow">
+                    <a href="#books" class="list-group-item list-group-item-action">Listado de libros</a>
+                    <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+                    <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+                    <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                    <a href="#" class="list-group-item list-group-item-action">A disabled link item</a>
                   </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Accordion Item #2
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Accordion Item #3
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                        Accordion Item #4
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-4">
+                <div class="accordion shadow my-4" id="books">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button bg-danger text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <h5><i class="fa-solid fa-book"></i> - Juego de Tronos  <h6><span class="badge bg-info mx-2">Nuevo!!</span></h6></h5> 
                       </button>
                     </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                      <div class="accordion-body">
+                          <div class="alert alert-info" role="alert">
+                              Para comprar este libro <a href="https://getbootstrap.com/docs/5.0/components/alerts/" class="btn btn-info"><strong>Clic aquí</strong></a>
+                          </div>
+                          <div class="row">
+                              <div class="col-4">.
+                                  <div class="text-center">
+                                      <img class="shadow rounded img-fluid"  src="https://1.bp.blogspot.com/-T6cUgtsWKAc/W_3X-1_oMHI/AAAAAAABDas/qQTWY0FiYpMUBDp3Qf-cBC_x8gM8Bjl2wCLcBGAs/s1600/George%2BR%2BR%2BMartin%2Banticipa%2Bla%2Bprecuela%2Bde%2BJuego%2Bde%2BTronos-1.jpg" alt="">
+                                      <br>
+                                      <span class="bagde bg-info text-white rounded shadow p-1">$ 250.000</span>
+                                  </div>
+                              </div>
+                              <div class="col-8">
+                                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias cumque aspernatur reiciendis quia dolores sed nostrum excepturi consequatur temporibus dolore.</p>
+                                
+                                    <button type="button" class="btn btn-info"><i class="fa-solid fa-eye"></i></button>
+                                    <button type="button" class="btn btn-success"><i class="fa-solid fa-cart-arrow-down"></i></button>
+                                
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Accordion Item #2
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                      <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
                       <div class="accordion-body">
                         <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                       </div>
                     </div>
+                  </div>
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                          Accordion Item #4
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                  </div>
                 </div>
+              </div>
+              <div class="col-6">
+                <ol class="list-group list-group-numbered my-4 shadow">
+                  <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Acción</div>
+                      Cantidad disponible :
+                    </div>
+                    <span class="badge bg-primary rounded-pill">14</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Aventura</div>
+                      Cantidad disponible :
+                    </div>
+                    <span class="badge bg-primary rounded-pill">14</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Terror</div>
+                      Cantidad disponible :
+                    </div>
+                    <span class="badge bg-primary rounded-pill">14</span>
+                  </li>
+                </ol>
+              </div>
             </div>
         </div>
-     </div>
-     <div class="row">
-        <div class="col">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur enim dolores laudantium explicabo fugiat veniam facilis corrupti impedit voluptatem nulla nemo deserunt itaque saepe quis distinctio sit nihil esse velit reiciendis ab porro maxime, illum dicta! Magni iure aliquid delectus, commodi adipisci ipsa eos labore aperiam magnam deserunt nulla non fuga aliquam est repellendus aspernatur sint ipsum? Consequuntur culpa iste tenetur ipsam illo quos numquam minima pariatur labore quod vel, vitae obcaecati et adipisci reiciendis vero saepe sapiente dicta, laboriosam neque rerum tempora sequi quisquam repellat! Ad atque qui magni esse aut, impedit corrupti alias praesentium quia odio quae dolore debitis nisi, reiciendis fugit voluptatibus aliquam dolores dolorem saepe minima. Sint optio ratione quam sit impedit accusantium consequatur ipsum quis itaque natus! Sit tempora doloribus ipsa. Tenetur repudiandae sint aut veniam molestias, nam, reiciendis provident rem vel sit cum ducimus, quaerat consequuntur eius earum porro eaque exercitationem incidunt quasi delectus consequatur non recusandae amet ex! Corporis obcaecati veniam voluptatem optio error doloremque, nesciunt dolorem suscipit aperiam quisquam odit mollitia molestias quas consequatur corrupti. Obcaecati accusantium a labore delectus magni animi reiciendis in porro repudiandae sit aperiam nulla, expedita suscipit quaerat autem officia minima repellendus dolore corporis quibusdam quod tenetur. Nam quae tenetur molestias iusto earum repellendus veritatis accusantium adipisci. Quae eos recusandae ducimus. Nobis nulla obcaecati, debitis itaque soluta alias dolorem id error corrupti tempore voluptatem harum non? Aliquam quod debitis, est tempore necessitatibus, atque asperiores officiis inventore illum voluptate amet doloremque nemo maxime rerum provident dolore blanditiis magnam autem ipsum quis obcaecati doloribus delectus consectetur. Commodi rerum numquam dignissimos eligendi neque at mollitia, nisi omnis harum eum molestias doloribus velit dolor a explicabo alias! Harum repudiandae, dolor saepe eligendi expedita eius maiores nemo quidem molestias dicta similique enim. Nam velit doloremque totam eius quae quaerat dolore obcaecati autem saepe minima, error ad ducimus expedita voluptates impedit non voluptatibus dolorem dicta mollitia! Odit vero nobis tempora iusto libero assumenda cum, accusamus incidunt error amet corrupti magni magnam explicabo ullam dignissimos distinctio architecto fugiat voluptates? Nobis veritatis, animi ratione ea similique obcaecati iusto unde sunt nisi mollitia praesentium corporis provident dicta quia quos ad a accusamus! Assumenda itaque quibusdam ex dolores praesentium eligendi earum sunt commodi exercitationem voluptas quo laudantium laboriosam quos repudiandae culpa voluptatibus, distinctio similique harum! Minus, magnam veniam odio labore illo reprehenderit delectus tempora, pariatur doloremque, libero consequatur iste omnis velit voluptatem. Nesciunt, inventore esse, totam dignissimos nobis molestiae natus fugit autem fuga minima ratione aperiam, omnis rerum quisquam aliquid laboriosam expedita officiis cumque similique quae quas repellendus perspiciatis. Quo debitis ex enim obcaecati, cum laudantium voluptate nemo et? Nisi nobis dicta rerum cumque mollitia quae eius quaerat praesentium nesciunt. Asperiores molestias corporis ratione ex aperiam illum nesciunt quam numquam sunt reprehenderit quidem dolor aliquid, quo, nulla neque officiis. Delectus voluptatum fugit enim odio nihil perferendis numquam est illum maxime libero, commodi ipsa ut minima voluptas, fugiat, modi illo doloribus cupiditate ipsum facere temporibus dicta! Consectetur incidunt repudiandae eos quos. Quam ipsam, modi officia tempore iste, sunt, vitae odit ipsa amet perspiciatis magni? Pariatur consectetur eaque incidunt quo sapiente dignissimos, hic rerum dicta tenetur nobis praesentium, veniam debitis maxime? Ratione, velit a. Rerum porro commodi rem ex assumenda fugit quisquam iusto placeat? Incidunt, sunt. Consequuntur laboriosam esse unde minima mollitia, vitae temporibus eum delectus blanditiis odit quae eius a quo rerum quod nobis deserunt animi laudantium! Distinctio nam modi, maiores officiis rerum aperiam consectetur veniam aspernatur eos vitae nostrum ut rem exercitationem. Quo earum modi aspernatur placeat ullam fugiat nobis at assumenda autem pariatur! Alias nulla, quo dolorem nesciunt necessitatibus perferendis error explicabo molestias aliquid autem laudantium sint officiis sit aliquam aspernatur earum quod dolorum maiores nam quibusdam. Eius perferendis excepturi provident facere officiis laudantium labore corporis iusto minus, quos hic consequuntur aut architecto totam ea. Necessitatibus recusandae sit, et nesciunt nihil nam, odit modi ea ipsa totam incidunt culpa optio consequuntur consequatur exercitationem dolore nostrum doloribus suscipit fugit eligendi nemo dolores expedita? Necessitatibus esse quibusdam voluptatum quisquam architecto labore pariatur cupiditate recusandae ex iure molestiae corporis nihil molestias excepturi, veniam, qui provident. Soluta impedit rerum quis iure accusamus, animi ipsa cupiditate ullam vitae, similique repellendus saepe nulla repellat consequuntur, ipsum rem qui culpa obcaecati illo sint cumque quibusdam incidunt magnam. Eum, iure sequi vitae placeat sunt, ducimus eius nostrum reprehenderit culpa provident cum nihil dolores nobis dolore explicabo soluta? Unde labore quas quidem atque optio obcaecati ipsa quo iusto officia ad aut quis sapiente, accusamus non, praesentium assumenda dolorum tenetur ipsum! Dolor pariatur incidunt neque iste tempora, aperiam, doloremque nesciunt consectetur animi maiores praesentium, enim deleniti! Repudiandae, illum non quaerat eum animi neque tempore qui, rem ducimus temporibus, cum iusto consequatur laudantium quas vero ratione voluptates quia nobis quasi in totam numquam. Voluptates, et? Obcaecati at, numquam blanditiis laborum eaque deserunt, inventore, accusantium voluptate earum nihil temporibus porro architecto laudantium. Numquam vero recusandae itaque optio voluptatem quo eaque perspiciatis magnam, blanditiis quisquam hic rem nemo quae? Exercitationem, expedita cumque tenetur aut fugiat illo officia ea iste ipsa et non praesentium. Ullam magnam amet eveniet quibusdam accusamus assumenda blanditiis fugit, impedit consequuntur, unde provident earum iusto, explicabo voluptatem eius! Nisi perferendis obcaecati veritatis, animi, fugiat esse sunt ullam odio alias amet officiis aspernatur nihil, maiores dicta architecto. Corporis, omnis. Perferendis esse magni amet quo placeat, pariatur nulla labore nemo voluptatum facere cupiditate vero iure, sit rerum possimus praesentium non ratione perspiciatis expedita a aperiam. Aspernatur ex magnam dicta nesciunt dignissimos ullam quos! Itaque ut, rerum dolores unde commodi libero totam sed sequi doloremque doloribus, mollitia laboriosam! Ea voluptatum eveniet ipsum voluptates molestiae possimus soluta tenetur obcaecati magnam quam modi numquam enim inventore, alias dicta perspiciatis impedit id odio recusandae quasi odit. Tenetur temporibus placeat iusto dolores quibusdam? Nemo cupiditate voluptatem, vel corporis iste veniam, distinctio aut beatae quidem mollitia velit, iure ea quam atque sunt! Quod veritatis repellendus neque culpa ipsa voluptatum, sint a non mollitia exercitationem. Sint eos obcaecati, tenetur consectetur placeat nam odit voluptatem molestias voluptatibus nostrum neque quis quod alias est repellat, autem perferendis harum!</p>
-        </div>
-     </div>
+          <div class="card-footer text-center">
+              <small>Derechos reservados 2022</small>
+          </div>
+      </div>
     </div>
  <!----script js bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
