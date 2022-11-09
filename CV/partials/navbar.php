@@ -6,22 +6,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link border-bottom border-light mx-2 border-3 rounded active" aria-current="page" href="#">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">Mis Estudios</a>
+          <a class="nav-link border-bottom border-light mx-2 border-3 rounded" href="">Mis Estudios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Experiencia Laboral</a>
+          <a class="nav-link border-bottom border-light mx-2 border-3 rounded" href="#">Experiencia Laboral</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Mis Habilidades</a>
+          <a class="nav-link border-bottom border-light mx-2 border-3 rounded" href="#">Mis Habilidades</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Cursos Realizados</a>
+          <a class="nav-link border-bottom border-light mx-2 border-3 rounded" href="#">Cursos Realizados</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" type="button" data-bs-toggle="modal" href="#contacto">Contactame</a>
+          <a class="nav-link border-bottom border-light mx-2 border-3 rounded" type="button" data-bs-toggle="modal" href="#contacto">Contactame</a>
         </li>
       </ul>
   </div>
