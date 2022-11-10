@@ -1,5 +1,5 @@
-<div class="card shadow rounded text-center mt-4 border-secondary border-2">
-    <div class="card-header bg-secondary bg-gradient text-white">
+<div class="card shadow rounded text-center mt-4">
+    <div class="card-header rounded bg-secondary bg-gradient text-white">
         <h4>Biografía.</h4>
     </div>
     <div class="card-body">
