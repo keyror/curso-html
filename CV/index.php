@@ -7,11 +7,12 @@
   <div class="container-fluid">
     <div class="card mt-4 shadow rounded">
       <div class="card-body">
-        <div class="row bg-primary bg-gradient rounded text-white">
+        <div class="row bg-primary bg-gradient rounded text-white mx-1">
           <div class="col">
             <section class="py-5 text-center container">
               <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
+                  <img class="img-fluid mb-2 rounded shado img-thumbnail" width="20%" src="https://w7.pngwing.com/pngs/328/599/png-transparent-male-avatar-user-profile-profile-heroes-necktie-recruiter.png" alt="foto de perfil">
                   <h1 class="fw-light">Camilo Mancipe</h1>
                   <p>Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
                   <p>
