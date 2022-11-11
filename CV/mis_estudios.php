@@ -9,7 +9,37 @@
       <div class="card-body">
         <div class="row mx-1">
           <div class="col">
-          
+            <div class="card text-center">
+                <div class="card-header bg-secondary bg-gradient text-white">
+                    <h4>Estudios de primaria</h4>
+                </div>
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit repellendus dolorem eius totam. Harum facilis alias labore maxime, commodi distinctio!</p>
+                </div>
+                <div class="card-footer">
+                    2007 - 2014
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+                <div class="card-header bg-secondary bg-gradient">
+
+                </div>
+                <div class="card-footer">
+                    
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+                <div class="card-header bg-secondary bg-gradient">
+
+                </div>
+                <div class="card-footer">
+                    
+                </div>
+            </div>
           </div>
         </div>
       </div>
