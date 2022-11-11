@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col">
                 <div class="alert alert-info text-center" role="alert">
-                  <h4>Mis estudios</h4>
+                  <h4>EDUCACIÓN</h4>
                 </div>
             </div>
         </div>
