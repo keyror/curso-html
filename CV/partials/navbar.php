@@ -12,7 +12,7 @@
           <a class="nav-link" href="mis_estudios.php"><span style="height:2px !important ;" class="border border-secondary border-2 bg-secondary text-secondary mx-2 rounded"></span> Mis Estudios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><span style="height:2px !important ;" class="border border-secondary border-2 bg-secondary text-secondary mx-2 rounded"></span> Experiencia Laboral</a>
+          <a class="nav-link" href="experiencia_laboral.php"><span style="height:2px !important ;" class="border border-secondary border-2 bg-secondary text-secondary mx-2 rounded"></span> Experiencia Laboral</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#"><span style="height:2px !important ;" class="border border-secondary border-2 bg-secondary text-secondary mx-2 rounded"></span> Mis Habilidades</a>
