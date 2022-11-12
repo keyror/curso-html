@@ -1,8 +1,8 @@
 <div class="accordion" id="accordionPanelsStayOpenExample">
   <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-      <button class="accordion-button collapsed bg-secondary bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-             Desarollador Junior
+    <h2 class="text-center accordion-header" id="panelsStayOpen-headingOne">
+      <button style="font-size: 20px;" class="accordion-button collapsed bg-secondary bg-gradient d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <strong>Desarollador Junior</strong> 
       </button>
     </h2>
     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
@@ -47,8 +47,8 @@
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingTwo"> 
-      <button class="accordion-button collapsed bg-secondary bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-        Desarollador Semi Senior
+      <button style="font-size: 20px;" class="accordion-button collapsed bg-secondary bg-gradient d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+         <strong>Desarollador Semi Senior</strong> 
       </button>
     </h2>
     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
@@ -93,8 +93,8 @@
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-      <button class="accordion-button collapsed bg-secondary bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-       Desarollador Senior
+      <button style="font-size: 20px;" class="accordion-button collapsed bg-secondary bg-gradient d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        <strong> Desarollador Senior</strong>
       </button>
     </h2>
     <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
