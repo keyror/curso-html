@@ -2,7 +2,7 @@
   <div class="accordion-item">
     <h2 class="text-center accordion-header" id="panelsStayOpen-headingOne">
       <button style="font-size: 20px;" class="accordion-button collapsed bg-secondary bg-gradient d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-            <strong>Desarollador Junior</strong> 
+            <strong>Desarollador Junior - <i class="fa-solid fa-circle-arrow-up"></i></strong> 
       </button>
     </h2>
     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
@@ -48,7 +48,7 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingTwo"> 
       <button style="font-size: 20px;" class="accordion-button collapsed bg-secondary bg-gradient d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-         <strong>Desarollador Semi Senior</strong> 
+         <strong>Desarollador Semi Senior - <i class="fa-solid fa-circle-arrow-up"></i></strong> 
       </button>
     </h2>
     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
@@ -94,7 +94,7 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingThree">
       <button style="font-size: 20px;" class="accordion-button collapsed bg-secondary bg-gradient d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-        <strong> Desarollador Senior</strong>
+        <strong> Desarollador Senior - <i class="fa-solid fa-circle-arrow-up"></i></strong>
       </button>
     </h2>
     <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
