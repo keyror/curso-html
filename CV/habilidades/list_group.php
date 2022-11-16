@@ -7,8 +7,8 @@
         </div>
         <div class="col-10 align-self-center">
             <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                    25%
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
+                    Nivel Basico
                 </div>
             </div>
         </div>
