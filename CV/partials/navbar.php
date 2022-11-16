@@ -9,13 +9,13 @@
           <a class="nav-link" href="index.php"><span style="height:2px !important ;" class="border border-secondary border-2 bg-secondary text-secondary mx-2 rounded "></span> Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="mis_estudios.php"><span style="height:2px !important ;" class="border border-secondary border-2 bg-secondary text-secondary mx-2 rounded"></span> Mis Estudios</a>
+          <a class="nav-link" href="mis_estudios.php"><span style="height:2px !important ;" class="border border-secondary border-2 bg-secondary text-secondary mx-2 rounded"></span>Estudios</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="experiencia_laboral.php"><span style="height:2px !important ;" class="border border-secondary border-2 bg-secondary text-secondary mx-2 rounded"></span> Experiencia Laboral</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><span style="height:2px !important ;" class="border border-secondary border-2 bg-secondary text-secondary mx-2 rounded"></span> Mis Habilidades</a>
+          <a class="nav-link" href="habilidades.php"><span style="height:2px !important ;" class="border border-secondary border-2 bg-secondary text-secondary mx-2 rounded"></span>Habilidades</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#"><span style="height:2px !important ;" class="border border-secondary border-2 bg-secondary text-secondary mx-2 rounded"></span> Cursos Realizados</a>
