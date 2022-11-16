@@ -20,9 +20,13 @@
                 </nav>
             </div>
         </div>
+        <div class="row my-2">
+            <div class="col-4 mx-3">
+                <?php include 'habilidades/menu_list_group.php'; ?>
+            </div>
+        </div>
         <div class="row rounded text-white mx-1">
           <div class="col">
-          <ol class="list-group list-group-numbered">
                 <?php include 'habilidades/list_group.php'; ?>
           </div>
         </div>

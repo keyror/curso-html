@@ -1,6 +1,6 @@
 
 <ul class="list-group">
-  <li class="list-group-item">
+  <li class="list-group-item" id="php">
     <div class="row">
         <div class="col">
             <img class="img-fluid" src="img/php.png" alt="php">
@@ -17,7 +17,7 @@
         </div>
     </div>
   </li>
-  <li class="list-group-item">
+  <li class="list-group-item" id="html">
     <div class="row">
         <div class="col">
             <img class="img-fluid" src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" alt="html">
@@ -34,7 +34,7 @@
         </div>
     </div>
   </li>
-  <li class="list-group-item">
+  <li class="list-group-item" id="css">
     <div class="row">
         <div class="col">
             <img class="img-fluid" src="https://w7.pngwing.com/pngs/696/424/png-transparent-logo-css-css3-thumbnail.png" alt="css">
@@ -51,6 +51,4 @@
         </div>
     </div>
   </li>
-  <li class="list-group-item">A fourth item</li>
-  <li class="list-group-item">And a fifth one</li>
 </ul>
