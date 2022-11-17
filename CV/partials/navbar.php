@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow justify-content-center">
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow justify-content-center">
   <div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -18,7 +18,7 @@
           <a class="nav-link" href="habilidades.php"><span style="height:2px !important ;" class="border border-secondary border-2 bg-secondary text-secondary mx-2 rounded"></span>Habilidades</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><span style="height:2px !important ;" class="border border-secondary border-2 bg-secondary text-secondary mx-2 rounded"></span> Cursos Realizados</a>
+          <a class="nav-link" href="cursos_realizados.php"><span style="height:2px !important ;" class="border border-secondary border-2 bg-secondary text-secondary mx-2 rounded"></span> Cursos Realizados</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" type="button" data-bs-toggle="modal" href="#contacto"><span style="height:2px !important ;" class="border border-secondary border-2 bg-secondary text-secondary mx-2 rounded"></span> Contactame</a>

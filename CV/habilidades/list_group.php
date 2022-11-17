@@ -40,7 +40,7 @@
             <img class="img-fluid" src="https://w7.pngwing.com/pngs/696/424/png-transparent-logo-css-css3-thumbnail.png" alt="css">
         </div>
         <div class="col align-self-center text-center">
-           <span class="badge bg-primary"> <h5>5 Años</h5>  </span>
+           <span class="badge bg-primary"> <h5>7 Años</h5>  </span>
         </div>
         <div class="col-8 align-self-center">
             <div class="progress">
