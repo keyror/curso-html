@@ -4,12 +4,15 @@
 <title>Tienda Online</title>
 <body>
 <?php include 'partials/navbar.php'?>
-    <div class="card mt-4 shadow rounded">
+    <div class="card shadow rounded">
       <div class="card-body">
-        <div class="row rounded text-white mx-1">
+        <div class="row">
           <div class="col">
-           
+            <?php include 'inicio/carrousel.php'; ?>
           </div>
+        </div>
+        <div class="row mt-4">
+           <?php include 'inicio/cards.php' ?>
         </div>
       </div>
       <?php include 'partials/footer.php'; ?>
