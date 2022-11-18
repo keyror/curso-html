@@ -6,10 +6,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="index.php"><i class="fa-solid fa-house"></i> Inicio</a>
+          <a class="nav-link active" href="index.php"><i class="fa-solid fa-house"></i> Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="mis_estudios.php">Estudios</a>
+          <a class="nav-link" href="catalogo.php"><i class="fa-solid fa-mobile"></i> Catálogo</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="experiencia_laboral.php"> Experiencia Laboral</a>
