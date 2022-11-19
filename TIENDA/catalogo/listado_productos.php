@@ -8,7 +8,7 @@
         </select>
     </div>
     <div class="col">
-       <p>Mostrando 20 Registros  de 200 Registros</p> 
+       <p class="pt-2">Mostrando 20 Registros  de 200 Registros</p> 
     </div>
 </div>
 <div class="row">
