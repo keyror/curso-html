@@ -1,4 +1,17 @@
 <div class="row">
+    <div class="col-2">
+        <select class="form-select" aria-label="Default select example">
+            <option selected># de Registros a mostrar</option>
+            <option value="1">10</option>
+            <option value="2">20</option>
+            <option value="3">30</option>
+        </select>
+    </div>
+    <div class="col">
+       <p>Mostrando 20 Registros  de 200 Registros</p> 
+    </div>
+</div>
+<div class="row">
     <div class="col">
         <div class="card shadow my-2 rounded text-center">
             <div class="card-header">
