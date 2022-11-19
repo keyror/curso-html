@@ -14,10 +14,10 @@
           </div>
         </div>
         <div class="row mx-1 mt-4">
-          <div class="col-4">
+          <div class="col-sm-3 col-lg-2 mb-4">
               <?php include 'catalogo/filtro.php'; ?>
           </div>
-          <div class="col-8">
+          <div class="col-sm-9 col-lg-10">
              <?php include 'catalogo/listado_productos.php';?>
           </div>
         </div>
