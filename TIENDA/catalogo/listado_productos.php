@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-2">
+    <div class="col-lg-2 col-sm-3">
         <select class="form-select" aria-label="Default select example">
             <option selected># de Registros a mostrar</option>
             <option value="1">10</option>
@@ -160,4 +160,19 @@
             </div>
         </div>
     </div>
+</div>
+<div class="row mt-4">
+    <div class="col-4"></div>
+    <div class="col">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="col-4"></div>
 </div>
