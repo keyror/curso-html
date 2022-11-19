@@ -12,7 +12,7 @@
     </select>
   </li>
   <li class="list-group-item">
-    <span class="badge bg-secondary mb-2"><i class="fa-solid fa-sd-card"></i> Tamaño de memoria</span> <br>
+    <span class="badge bg-secondary mb-2"><i class="fa-solid fa-sd-card"></i> Almacenamiento</span> <br>
         <div class="form-check form-check-inline">
             <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
             <label class="form-check-label" for="inlineCheckbox1">64 gb</label>
@@ -84,7 +84,18 @@
         </div>
   </li>
   <li class="list-group-item">
-    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-    Fifth checkbox
+    <span class="badge bg-secondary mb-2"><i class="fa-solid fa-globe"></i> Red</span> <br>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">3G</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">4G</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+            <label class="form-check-label" for="inlineCheckbox3">5G</label>
+        </div>
   </li>
 </ul>
