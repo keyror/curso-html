@@ -9,14 +9,16 @@
         <div class="row rounded text-white mx-1">
           <div class="col">
             <div class="card-header bg-secondary shadow rounded">
-                <form class="d-flex">
-                    <input type="number" class="form-control" placeholder="200.000">
-                    <span class="badge bg-primary mx-1 align-self-center"><strong> <h6>=<</h6> </strong></span>
-                    <input type="number" class="form-control mx-2" placeholder="8.000.000">
-                    <input class="form-control me-2" type="search" placeholder="Busca tu producto" aria-label="Search">
-                    <button class="btn btn-outline-dark" type="submit"><i class="fas fa-search"></i></button>
-                </form>
+            <?php include 'catalogo/buscador.php'; ?>
             </div>
+          </div>
+        </div>
+        <div class="row mx-1 mt-4">
+          <div class="col-4">
+              <?php include 'catalogo/filtro.php'; ?>
+          </div>
+          <div class="col-8">
+             <?php include 'catalogo/listado_productos.php';?>
           </div>
         </div>
       </div>
