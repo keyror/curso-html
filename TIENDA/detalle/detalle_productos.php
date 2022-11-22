@@ -94,7 +94,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row my-3">
                     <div class="col-4">
                         <span class="badge bg-secondary"><i class="fa-solid fa-sd-card"></i> Almacenamiento</span> 
                     </div>
