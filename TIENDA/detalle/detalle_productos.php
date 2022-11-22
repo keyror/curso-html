@@ -75,11 +75,35 @@
                         </a>
                     </div>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
+                <div class="row">
+                    <div class="col">
+                        <span class="badge bg-secondary mb-2"><i class="fa-solid fa-palette"></i> Color</span>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input bg-danger" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Rojo</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input bg-dark" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Negro</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Blanco</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        
+                    </div>
+                </div>
+                <div class="text-dark">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
+                </div>
            </div>
         </div>
     </div>
