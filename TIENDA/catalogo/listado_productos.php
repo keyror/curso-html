@@ -22,7 +22,7 @@
             </div>
             <div class="card-footer">
             <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                <a role="button" href="#" class="btn btn-success btn-sm"><i class="fa-solid fa-dollar-sign"></i> Comprar</a>
+                <a role="button" href="detalle_producto.php" class="btn btn-success btn-sm"><i class="fa-solid fa-dollar-sign"></i> Comprar</a>
                 <a role="button" href="#" class="btn btn-primary btn-sm"><i class="fa-solid fa-cart-plus"></i></a>
             </div>
             </div>
