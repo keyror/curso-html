@@ -75,7 +75,6 @@
                         </a>
                     </div>
                 </div>
-                <span class="badge bg-secondary">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
