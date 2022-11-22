@@ -76,8 +76,10 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        <span class="badge bg-secondary mb-2"><i class="fa-solid fa-palette"></i> Color</span>
+                    <div class="col-4">
+                    <span class="badge bg-secondary"><i class="fa-solid fa-palette"></i> Color</span>
+                    </div>
+                    <div class="col-8">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input bg-danger" type="checkbox" id="inlineCheckbox1" value="option1">
                             <label class="form-check-label" for="inlineCheckbox1">Rojo</label>
@@ -93,8 +95,22 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        
+                    <div class="col-4">
+                        <span class="badge bg-secondary"><i class="fa-solid fa-sd-card"></i> Almacenamiento</span> 
+                    </div>
+                    <div class="col-8">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio"  name="inlineRadioOptions" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">64 gb</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio"  name="inlineRadioOptions" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">128 gb</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio"  name="inlineRadioOptions" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">256 gb</label>
+                        </div>
                     </div>
                 </div>
                 <div class="text-dark">

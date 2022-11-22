@@ -6,7 +6,7 @@
 <?php include 'partials/navbar.php'?>
     <div class="card mt-4 shadow rounded">
       <div class="card-body">
-        <div class="row rounded text-white mx-1">
+        <div class="row rounded mx-1">
           <div class="col">
            <?php include 'detalle/detalle_productos.php'; ?>
           </div>
