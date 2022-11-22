@@ -56,6 +56,32 @@
         </div>
     </div>
     <div class="col-4">
-
+        <div class="card">
+           <div class="card-body">
+                <div class="card-header bg-secondary shadow rounded-3 text-center">Redmi 10C</div>
+                <div class="row mt-4">
+                    <div class="col">
+                        <span class="badge bg-info">$ 1.000.000</span>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="text-decoration-none">
+                            <p class="text-dark"> 
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i> 
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <strong>20</strong> opiniones
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <span class="badge bg-secondary">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
+           </div>
+        </div>
     </div>
 </div>
