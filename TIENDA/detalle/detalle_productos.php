@@ -3,28 +3,28 @@
         <div class="row">
             <div class="col">
                 <a role="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0">
-                    <img class="img-fluid rounded-3 shadow-sm" src="https://xiaomicolombia.vtexassets.com/arquivos/ids/156748-1200-auto?v=637740865965500000&width=1200&height=auto&aspect=true" alt="primera imagen">
+                    <img width="80%"  class="img-fluid rounded-3 shadow-sm" src="https://xiaomicolombia.vtexassets.com/arquivos/ids/156748-1200-auto?v=637740865965500000&width=1200&height=auto&aspect=true" alt="primera imagen">
                 </a>
             </div>
         </div>
         <div class="row">
             <div class="col">
                 <a role="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
-                    <img class="img-fluid rounded-3 shadow-sm" src="https://xiaomicolombia.vtexassets.com/arquivos/ids/156746-1200-auto?v=637740865642700000&width=1200&height=auto&aspect=true" alt="">
+                    <img  width="80%"  class="img-fluid rounded-3 shadow-sm" src="https://xiaomicolombia.vtexassets.com/arquivos/ids/156746-1200-auto?v=637740865642700000&width=1200&height=auto&aspect=true" alt="">
                 </a>
             </div>
         </div>
         <div class="row">
             <div class="col">
                 <a role="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">  
-                    <img class="img-fluid rounded-3 shadow-sm" src="https://xiaomicolombia.vtexassets.com/arquivos/ids/156750-1200-auto?v=637740866266330000&width=1200&height=auto&aspect=true" alt="">
+                    <img  width="80%"  class="img-fluid rounded-3 shadow-sm" src="https://xiaomicolombia.vtexassets.com/arquivos/ids/156750-1200-auto?v=637740866266330000&width=1200&height=auto&aspect=true" alt="">
                 </a>
             </div>
         </div>
         <div class="row">
             <div class="col">
                 <a role="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3">
-                    <img class="img-fluid rounded-3 shadow-sm" src="https://xiaomicolombia.vtexassets.com/arquivos/ids/156751-1200-auto?v=637740866415900000&width=1200&height=auto&aspect=true" alt="">
+                    <img  width="80%" class="img-fluid rounded-3 shadow-sm" src="https://xiaomicolombia.vtexassets.com/arquivos/ids/156751-1200-auto?v=637740866415900000&width=1200&height=auto&aspect=true" alt="">
                 </a>
             </div>
         </div>
@@ -113,6 +113,23 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-8">
+                        <label for="" class="form-label"><i class="fa-solid fa-plus"></i> Cantidad</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="number" class="form-control">
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col">
+                   <button class="btn btn-success"><i class="fa-solid fa-dollar-sign"></i> Comprar</button> 
+                   <button class="btn btn-danger">Cancelar</button>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
                 <div class="text-dark">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
@@ -122,5 +139,10 @@
                 </div>
            </div>
         </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+
     </div>
 </div>
