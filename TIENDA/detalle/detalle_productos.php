@@ -126,9 +126,6 @@
                    <button class="btn btn-success"><i class="fa-solid fa-dollar-sign"></i> Comprar</button> 
                    <a href="catalogo.php" class="btn btn-danger">Cancelar</a>
                     </div>
-                    <div class="col">
-
-                    </div>
                 </div>
                 <div class="text-dark">
                     <div class="card mb-3" style="max-width: 540px;">
@@ -141,6 +138,12 @@
                                     <h5 class="card-title">Xiaomi Store</h5>
                                     <p class="card-text">Ubicación : bogota</p>
                                     <p class="card-text">Dirección : crr 177 # 50 105</p>
+                                    <p class="text-dark"> 
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i> 
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                    </p>
                                 </div>
                             </div>
                         </div>
