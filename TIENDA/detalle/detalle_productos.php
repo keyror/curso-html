@@ -64,7 +64,7 @@
                         <span class="badge bg-info">$ 1.000.000</span>
                     </div>
                     <div class="col">
-                        <a href="#" class="text-decoration-none">
+                        <a href="#comentarios" class="text-decoration-none">
                             <p class="text-dark"> 
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i> 
@@ -174,7 +174,7 @@
         </div>
     </div>
     <div class="col-4">
-        <textarea class="form-control mb-2" name="" id="" cols="30" rows="5"></textarea>
+        <textarea class="form-control mb-2" name="" id="comentarios" cols="30" rows="5"></textarea>
         <button class="mb-4 btn btn-primary" type="button">Publicar comentario</button>
         <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
