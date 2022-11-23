@@ -123,7 +123,7 @@
                 </div>
                 <div class="row my-5">
                     <div class="col">
-                   <button class="btn btn-success"><i class="fa-solid fa-dollar-sign"></i> Comprar</button> 
+                   <a role="button" href="carrito.php" class="btn btn-success"><i class="fa-solid fa-dollar-sign"></i> Comprar</a> 
                    <a href="catalogo.php" class="btn btn-danger">Cancelar</a>
                     </div>
                 </div>
