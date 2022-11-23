@@ -176,19 +176,45 @@
     <div class="col-4">
         <textarea class="form-control mb-2" name="" id="comentarios" cols="30" rows="5"></textarea>
         <button class="mb-4 btn btn-primary" type="button">Publicar comentario</button>
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3">
             <div class="row g-0">
                 <div class="col-md-4">
-                <img src="https://cdn-icons-png.flaticon.com/512/219/219983.png" class="img-fluid rounded-start" alt="...">
+                <img src="https://cdn-icons-png.flaticon.com/512/219/219983.png" class="img-fluid rounded-startc m-2" alt="...">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">camilo mancipe</h5>
                         <p class="card-text">El mejor dispositivo precio calidad.</p>
+                        <p class="text-dark"> 
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i> 
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="card-footer text-center"><small class="text-muted">Publicado hace 3 minutos.</small></div>
+        </div>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="https://cdn-icons-png.flaticon.com/512/219/219983.png" class="img-fluid rounded-startc m-2" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Julia perez</h5>
+                        <p class="card-text">El mejor dispositivo precio calidad.</p>
+                        <p class="text-dark"> 
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i> 
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer text-center"><small class="text-muted">Publicado hace 50 minutos.</small></div>
         </div>
     </div>
 </div>
