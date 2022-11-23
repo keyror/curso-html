@@ -148,10 +148,13 @@
                 </div>
            </div>
         </div>
+        <div class="card-header shadow rounded bg-secondary text-center mt-5 text-white">
+            <h4>Sección de comentarios</h4>
+        </div>
     </div>
 </div>
 <div class="row mt-4">
-    <div class="col">
+    <div class="col-8">
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">Descripción del producto</h4>
@@ -168,6 +171,24 @@
                     <li>Corning® Gorilla 3 Glass. Protección contra daños por caídas sobre superficies duras y ásperas</li>
                 </ul>
             </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <textarea class="form-control mb-2" name="" id="" cols="30" rows="5"></textarea>
+        <button class="mb-4 btn btn-primary" type="button">Publicar comentario</button>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="https://cdn-icons-png.flaticon.com/512/219/219983.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">camilo mancipe</h5>
+                        <p class="card-text">El mejor dispositivo precio calidad.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer text-center"><small class="text-muted">Publicado hace 3 minutos.</small></div>
         </div>
     </div>
 </div>
