@@ -124,25 +124,50 @@
                 <div class="row my-5">
                     <div class="col">
                    <button class="btn btn-success"><i class="fa-solid fa-dollar-sign"></i> Comprar</button> 
-                   <button class="btn btn-danger">Cancelar</button>
+                   <a href="catalogo.php" class="btn btn-danger">Cancelar</a>
                     </div>
                     <div class="col">
 
                     </div>
                 </div>
                 <div class="text-dark">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero?</p>
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_GupguAOOCkmikcijI_Bq81_K8aRmKmcNj75lOWNKFVoTUAn6uQm1L-7rjJljLqEGkC8&usqp=CAU" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Xiaomi Store</h5>
+                                    <p class="card-text">Ubicación : bogota</p>
+                                    <p class="card-text">Dirección : crr 177 # 50 105</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
            </div>
         </div>
     </div>
 </div>
-<div class="row">
+<div class="row mt-4">
     <div class="col">
-
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Descripción del producto</h4>
+                <ul>
+                    <li>El Redmi 10C cuenta con la potencia del increíble procesador Snapdragon® 680 de ocho núcleos, también basado en el proceso de 6 nm distintivo.</li>
+                    <li>Haz más cosas, más rápido. La memoria UFS 2.2 de Redmi 10C ofrece un rendimiento más rápido y fluido que te permite acceder a aplicaciones y ejecutarlas de forma rápida y eficiente.</li>
+                    <li>Hasta 1 TB. Amplia su capacidad de almacenamiento. Almacena más fotos y vídeos sin tener preocuparte por las limitaciones del espacio de almacenamiento.</li>
+                    <li>Se acabó el preocuparse por la batería. El Redmi 10C ofrece una enorme batería de 5000 mAh (typ) que dura más de dos días*, lo que te da energía de sobra allá donde vayas.</li>
+                    <li>Soporta carga rápida de 18 W. Recarga la enorme batería de carga del Redmi 10C en poco tiempo con una carga rápida de hasta 18 W*.</li>
+                    <li>Gran pantalla de 6,71". Experiencia visual inmersiva. Admite Netflix HD y Prime Video HD para brindarte una experiencia de transmisión decente. Además, la pantalla está protegida con Corning® Gorilla® Glass, que le proporciona resistencia a caídas y rasguños.</li>
+                    <li>Sumérgete en tu contenido con el potente sistema de altavoces del Redmi 10C, que ofrece un audio completo e intenso.</li>
+                    <li>Cámara ultranítida de 50 MP. Captura contenido increíble con gran detalle.</li>
+                    <li>Más inteligente y conveniente: extensión de memoria, NFC multifuncional, IR Blaster, Motor lineal del eje Z.</li>
+                    <li>Corning® Gorilla 3 Glass. Protección contra daños por caídas sobre superficies duras y ásperas</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
