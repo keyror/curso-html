@@ -7,8 +7,8 @@
       <tr>
         <th scope="col">Producto</th>
         <th scope="col">Cantidad</th>
-        <th scope="col">Precio unidad</th>
-        <th scope="col">Total</th>
+        <th scope="col"><i class="fa-solid fa-dollar-sign"></i> Precio unidad</th>
+        <th scope="col"><i class="fa-solid fa-dollar-sign"></i> Total</th>
         <th scope="col">Acciones</th>
       </tr>
     </thead>
@@ -51,7 +51,7 @@
       </tr>
     </tbody>
   </table>
-  <a class="btn btn-danger" href="catalogo.php" role="button">Cancelar</a>
-  <a href="" class="btn btn-success" role="button">Pagar</a>
+  <a class="btn btn-danger" href="catalogo.php" role="button"><i class="fa-solid fa-ban"></i> Cancelar</a>
+  <a href="" class="btn btn-success" role="button"><i class="fa-solid fa-credit-card"></i> Pagar</a>
   </center>
 </div>

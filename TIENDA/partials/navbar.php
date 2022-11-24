@@ -12,7 +12,7 @@
           <a class="nav-link" href="catalogo.php"><i class="fa-solid fa-mobile"></i> Catálogo</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="experiencia_laboral.php"> Experiencia Laboral</a>
+          <a class="nav-link" href="carrito.php"><i class="fa-solid fa-cart-shopping"></i> Carrito de Compras</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="habilidades.php">Habilidades</a>
