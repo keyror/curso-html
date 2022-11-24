@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'partials/head.php'?>
-<title>Document</title>
+<title>Detalle factura</title>
 <body>
 <?php include 'partials/navbar.php'?>
     <div class="card mt-4 shadow rounded">
