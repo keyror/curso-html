@@ -93,3 +93,6 @@
         <h4>Total : $4.000.000 </h4>
     </div>
 </div>
+<center>
+    <button class="btn btn-success mt-4" type="button" onclick="window.print()"><i class="fa-solid fa-print"></i> Imprimir</button>
+</center>
