@@ -15,7 +15,7 @@
           <a class="nav-link" href="carrito.php"><i class="fa-solid fa-cart-shopping"></i> Carrito de Compras</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="habilidades.php">Habilidades</a>
+          <a class="nav-link" href="">Quienes somos ?</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="cursos_realizados.php"> Cursos Realizados</a>
