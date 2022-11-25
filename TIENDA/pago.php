@@ -6,8 +6,8 @@
 <?php include 'partials/navbar.php'?>
     <div class="card mt-4 shadow rounded">
       <div class="card-body">
-        <div class="row rounded mx-1">
-          <div class="col">
+        <div class="row rounded justify-content-center">
+          <div class="col-6">
             <?php include 'pago/metodo_pago.php'; ?>
           </div>
         </div>
