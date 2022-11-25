@@ -52,6 +52,6 @@
     </tbody>
   </table>
   <a class="btn btn-danger" href="catalogo.php" role="button"><i class="fa-solid fa-ban"></i> Cancelar</a>
-  <a href="factura.php" class="btn btn-success" role="button"><i class="fa-solid fa-credit-card"></i> Pagar</a>
+  <a href="pago.php" class="btn btn-success" role="button"><i class="fa-solid fa-credit-card"></i> Pagar</a>
   </center>
 </div>
