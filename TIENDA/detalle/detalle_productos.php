@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-2 align-self-end">
+    <div class="col-lg-2 col-sm-4 mb-lg-0 mb-sm-4">
         <div class="row">
             <div class="col">
                 <a role="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0">
@@ -29,7 +29,8 @@
             </div>
         </div>
     </div>
-    <div class="col-6">
+    <!---carrousel -->
+    <div class="col-lg-6 col-sm-8">
         <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -55,7 +56,7 @@
             </button>
         </div>
     </div>
-    <div class="col-4">
+    <div class="col-lg-4 col-sm-12">
         <div class="card">
            <div class="card-body">
                 <div class="card-header bg-secondary shadow rounded-3 text-center">Redmi 10C</div>
@@ -76,10 +77,10 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
-                    <span class="badge bg-secondary"><i class="fa-solid fa-palette"></i> Color</span>
+                    <div class="col-4 col-sm-12">
+                        <span class="badge bg-secondary"><i class="fa-solid fa-palette"></i> Color</span>
                     </div>
-                    <div class="col-8">
+                    <div class="col-8 col-sm-12">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input bg-danger" type="checkbox" id="inlineCheckbox1" value="option1">
                             <label class="form-check-label" for="inlineCheckbox1">Rojo</label>
@@ -95,10 +96,10 @@
                     </div>
                 </div>
                 <div class="row my-3">
-                    <div class="col-4">
+                    <div class="col-4 col-sm-12">
                         <span class="badge bg-secondary"><i class="fa-solid fa-sd-card"></i> Almacenamiento</span> 
                     </div>
-                    <div class="col-8">
+                    <div class="col-8 col-sm-12">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio"  name="inlineRadioOptions" id="inlineCheckbox1" value="option1">
                             <label class="form-check-label" for="inlineCheckbox1">64 gb</label>
@@ -114,10 +115,10 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-8 col-sm-12">
                         <label for="" class="form-label"><i class="fa-solid fa-plus"></i> Cantidad</label>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 col-sm-12">
                         <input type="number" class="form-control">
                     </div>
                 </div>
@@ -130,10 +131,10 @@
                 <div class="text-dark">
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
-                            <div class="col-md-4">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_GupguAOOCkmikcijI_Bq81_K8aRmKmcNj75lOWNKFVoTUAn6uQm1L-7rjJljLqEGkC8&usqp=CAU" class="img-fluid rounded-start" alt="...">
+                            <div class="col-lg-4 col-sm-4">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_GupguAOOCkmikcijI_Bq81_K8aRmKmcNj75lOWNKFVoTUAn6uQm1L-7rjJljLqEGkC8&usqp=CAU" class="img-fluid rounded-start m-2" alt="...">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-lg-8 col-sm-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Xiaomi Store</h5>
                                     <p class="card-text">Ubicación : bogota</p>
@@ -182,7 +183,7 @@
         <div class="card mb-3">
             <div class="row g-0">
                 <div class="col-md-4">
-                <img src="https://cdn-icons-png.flaticon.com/512/219/219983.png" class="img-fluid rounded-startc m-2" alt="...">
+                <img src="https://cdn-icons-png.flaticon.com/512/219/219983.png" class="img-fluid rounded-start me-2" alt="...">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
@@ -202,7 +203,7 @@
         <div class="card mb-3">
             <div class="row g-0">
                 <div class="col-md-4">
-                <img src="https://cdn-icons-png.flaticon.com/512/219/219983.png" class="img-fluid rounded-startc m-2" alt="...">
+                <img src="https://cdn-icons-png.flaticon.com/512/219/219983.png" class="img-fluid rounded-start me-2" alt="...">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
