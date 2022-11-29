@@ -15,10 +15,10 @@
           <a class="nav-link" href="carrito.php"><i class="fa-solid fa-cart-shopping"></i> Carrito de Compras</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="quienes_somos.php">¿ Quienes somos ?</a>
+          <a class="nav-link" href="soporte_home.php"><i class="fa-solid fa-headset"></i> Soporte</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="cursos_realizados.php"> Cursos Realizados</a>
+          <a class="nav-link" href="quienes_somos.php">¿ Quienes somos ?</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" type="button" data-bs-toggle="modal" href="#contacto"> Contactame</a>
