@@ -19,7 +19,7 @@
                                 <div class="col-4">
                                     <form class="d-flex">
                                         <input class="form-control me-2" type="search" placeholder="Introduce tu código de rastreo" aria-label="Search">
-                                        <button class="btn btn-success" type="submit">Buscar</button>
+                                        <a href="soporte.php" class="btn btn-success" role="button"><i class="fa-solid fa-magnifying-glass"></i> Buscar</a>
                                     </form>
                                 </div>
                                 <div class="col"></div>
