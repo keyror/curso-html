@@ -18,7 +18,7 @@
                                 <div class="col"></div>
                                 <div class="col-4">
                                     <form class="d-flex">
-                                        <input class="form-control me-2" type="search" placeholder="Introduce tu código de rastreo" aria-label="Search">
+                                        <input class="form-control me-2" type="search" placeholder="Introduce cedula" aria-label="Search">
                                         <a href="soporte.php" class="btn btn-success" role="button"><i class="fa-solid fa-magnifying-glass"></i> Buscar</a>
                                     </form>
                                 </div>
