@@ -1,4 +1,4 @@
-<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
     <div class="card-header bg-secondary shadow rounded text-center text-white mb-4">
         <h4><i class="fa-solid fa-ticket"></i> Apertura ticket</h4>
     </div>

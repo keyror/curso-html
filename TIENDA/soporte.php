@@ -7,12 +7,11 @@
     <div class="card mt-4 shadow rounded">
       <div class="card-body">
         <div class="row rounded mx-1">
-          <div class="col">
+          <div class="col-lg-2 col-sm-0"></div>
+          <div class="col-lg-8">
               <?php include 'soporte/soporte_componente.php' ?>
           </div>
-          <div class="col-lg-3 col-sm-0">
-              <img class="img-fluid rounded-3 shadow" src="https://tecnosoluciones.com/wp-content/uploads/2019/06/Modificada-4.jpg" alt="">
-          </div>
+          <div class="col-lg-2 col-sm-0"></div>
         </div>
       </div>
       <?php include 'partials/footer.php'; ?>

@@ -1,4 +1,4 @@
-<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"> 
+<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home"> 
     <div class="table-responsive">
         <div class="card-header bg-secondary shadow rounded text-center text-white">
             <h4><i class="fa-solid fa-list-check"></i> Listado de pedidos</h4>
