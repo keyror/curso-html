@@ -1,4 +1,4 @@
-<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact">
+<div class="tab-pane fade" id="nav-ticket" role="tabpanel" aria-labelledby="nav-contact">
     <div class="card-header bg-secondary shadow rounded text-center text-white mb-4">
         <h4><i class="fa-solid fa-map-location-dot"></i> Trazabilidad Ticket</h4>
     </div>
