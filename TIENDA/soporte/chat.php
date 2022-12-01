@@ -3,6 +3,9 @@
         <h4><i class="fa-solid fa-message"></i> Habla con nosotros</h4>
     </div>
     <div class="card">
+        <div class="card-heder">
+           <a href="" class="text-danger"><i class="fa-solid fa-circle-xmark float-end fa-2x m-2"></i></a> 
+        </div>
         <div class="card-body bg-secondary">
             <div class="row">
                 <div class="col">
