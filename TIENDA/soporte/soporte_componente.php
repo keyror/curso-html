@@ -4,6 +4,7 @@
     <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa-solid fa-ticket"></i> Abrir ticket</button>
     <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-ticket" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="fa-solid fa-ticket-simple"></i> Trazabilidad Tickets</button>
     <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="fa-solid fa-map-location-dot"></i> Trazabilidad Pedido</button>
+    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-chat" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="fa-solid fa-message"></i> Habla con un Técnico</button>
   </div>
 </nav>
 <div class="tab-content text-center" id="nav-tabContent">
@@ -11,5 +12,6 @@
     <?php include 'apertura_ticket.php'; ?>
     <?php include 'trazabilidad_tikects.php'; ?>
     <?php include 'trazabilidad.php'; ?>
+    <?php include 'chat.php'; ?>
 </div>
  
